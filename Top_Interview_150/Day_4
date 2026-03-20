@@ -1,3 +1,6 @@
 Array/String:
 -> Remove Duplicates from Sorted Array II (medium)
   #80 | Array | Two Pointers
+
+-> Majority Element (Easy)
+  #169 | Array | Hash Table | Divide and Conquer | Sorting | Counting
