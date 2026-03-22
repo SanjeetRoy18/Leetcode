@@ -1,0 +1,74 @@
+/*
+Linked List:
+-> Reverse Linked List II (medium)
+  #92 | Linked List 
+*/
+struct ListNode* reverseBetween(struct ListNode* head, int left, int right) {
+    struct ListNode* temp = head;
+    int diff = right - left;
+
+    if (diff == 0) {
+        return head;
+    }
+
+    for (int i = 1; i < left; i++) {
+        temp = temp->next;
+    }
+
+    struct ListNode* prev = NULL;
+    struct ListNode* curr = temp;
+    struct ListNode* next = NULL;
+
+    if (curr == head) {
+        for (int i = 0; i <= diff; i++) {
+            next = curr->next;
+            curr->next = prev;
+            prev = curr;
+            curr = next;
+        }
+
+        if (curr == NULL) {
+            return prev;
+        }
+
+        struct ListNode* prev1 = prev;
+        for (int i = 0; i < diff; i++) {
+            prev = prev->next;
+        }
+
+        prev->next = curr;
+        return prev1;
+    }
+
+    for (int i = 0; i <= diff; i++) {
+        next = curr->next;
+        curr->next = prev;
+        prev = curr;
+        curr = next;
+    }
+
+    if (left > 2) {
+        struct ListNode* temp1 = head;
+        for (int i = 2; i < left; i++) {
+            temp1 = temp1->next;
+        }
+        temp1->next = prev;
+        for (int i = 0; i < diff; i++) {
+            prev = prev->next;
+        }
+        if (curr == NULL) {
+            return head;
+        }
+        prev->next = curr;
+    } else {
+        head->next = prev;
+        for (int i = 0; i < diff; i++) {
+            prev = prev->next;
+        }
+        if (curr == NULL) {
+            return head;
+        }
+        prev->next = curr;
+    }
+    return head;
+}
