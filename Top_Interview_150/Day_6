@@ -1,3 +1,18 @@
 Array/String:
 -> Rotate Array (Medium)
   #189 | Array | Math | Two Pointers
+
+void rotate(int* nums, int numsSize, int k) {
+    k = k % numsSize;
+    if(k == 0 || k == numsSize) return;
+
+    int nums2[numsSize];
+
+    for(int j = 0; j<numsSize; j++){
+        nums2[j] = nums[(j + numsSize-k)%numsSize];
+    }
+
+    for(int i = 0; i<numsSize; i++){
+        nums[i] = nums2[i];
+    }
+}
