@@ -1,3 +1,23 @@
 Array/String
 -> Remove Duplicates from Sorted Array (Easy)
       #26 | Array | Two pointers
+
+int removeDuplicates(int* nums, int numsSize) {
+    int count = 1;
+    int i = 1;
+
+    while(i != numsSize){
+        if(nums[i] == nums[i-1]){
+            for(int j = i; j<numsSize-1; j++){
+                nums[j] = nums[j+1];
+            }
+            numsSize--;
+        }
+        else{
+            i++;
+            count++;
+        }
+    }
+
+    return count;
+}
