@@ -1,7 +1,7 @@
 Linked List:
 -> Linked List Cycle (Easy)
  #141 | Hash Table | Linked List | Two Pointers
-⬇️
+-------------------------------------------------
 bool hasCycle(struct ListNode *head) {
     if (head == NULL || head->next == NULL) return false;
 
@@ -20,11 +20,11 @@ bool hasCycle(struct ListNode *head) {
 }
 
 
-
+--------------------------------------
 Two Pointers:
 -> Valid Palindrome
  #125 | Two Palindromes | String
-⬇️
+--------------------------------------
 #include <stdbool.h>
 #include <string.h>
 #include <ctype.h>
