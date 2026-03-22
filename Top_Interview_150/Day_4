@@ -1,7 +1,7 @@
 Array/String:
 -> Remove Duplicates from Sorted Array II (medium)
   #80 | Array | Two Pointers
-
+---------------------------------------------------
 int removeDuplicates(int* nums, int numsSize) {
     if(numsSize <= 2) return numsSize;
 
@@ -18,9 +18,10 @@ int removeDuplicates(int* nums, int numsSize) {
 }
 
 
-
+-------------------------------------------------------------------------
 -> Majority Element (Easy)
   #169 | Array | Hash Table | Divide and Conquer | Sorting | Counting
+-------------------------------------------------------------------------
 
 int majorityElement(int* nums, int numsSize){
     int candidate = nums[0];
