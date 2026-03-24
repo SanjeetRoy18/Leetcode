@@ -1,6 +1,6 @@
 /*
     Matrix:
-    -> Valid Sudoku
+    -> Valid Sudoku (Medium)
       #36 | Array | Hash Table | Matrix
 */
 
