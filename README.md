@@ -13,6 +13,7 @@ Hi! I'm solving LeetCode problems daily to improve my DSA skills.
 - Strings
 - Linked List
 - Binary Tree
+- Sliding Window
 
 ## 🔗 Profile
 https://leetcode.com/u/Sanjeet_1603
