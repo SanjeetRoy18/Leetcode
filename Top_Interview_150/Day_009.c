@@ -1,7 +1,7 @@
 /*
     Sliding Window:
-    -> Minimum Sze Sbarray Sum
-      #209 Array | Binary Search | Sliding Window | Prefix Sum
+    -> Minimum Size Subarray Sum (Medium)
+      #209 | Array | Binary Search | Sliding Window | Prefix Sum
 */
 
 
