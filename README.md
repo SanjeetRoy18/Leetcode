@@ -12,6 +12,7 @@ Hi! I'm solving LeetCode problems daily to improve my DSA skills.
 - Arrays
 - Strings
 - Linked List
+- Stack/Queue
 - Binary Tree
 - Sliding Window
 - Hash maps
