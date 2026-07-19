@@ -3,9 +3,9 @@
 Hi! I'm solving LeetCode problems daily to improve my DSA skills.
 
 ## 📊 Progress
-- Total Solved: 140
+- Total Solved: 141
 - Easy: 91
-- Medium: 48
+- Medium: 49
 - Hard: 1
 
 ## 📁 Topics Covered
