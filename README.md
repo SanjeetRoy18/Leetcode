@@ -3,10 +3,10 @@
 Hi! I'm solving LeetCode problems daily to improve my DSA skills.
 
 ## 📊 Progress
-- Total Solved: 201
+- Total Solved: 202
 - Easy: 115
 - Medium: 81
-- Hard: 5
+- Hard: 6
 
 ## 📁 Topics Covered
 - Arrays
