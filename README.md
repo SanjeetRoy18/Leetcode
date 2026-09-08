@@ -3,8 +3,8 @@
 Hi! I'm solving LeetCode problems daily to improve my DSA skills.
 
 ## 📊 Progress
-- Total Solved: 203
-- Easy: 115
+- Total Solved: 204
+- Easy: 116
 - Medium: 82
 - Hard: 6
 
